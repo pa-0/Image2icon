@@ -318,7 +318,7 @@ void CImage2IconDlg::OnButtonImport()
 {
 	// TODO: Add your control notification handler code here
 	CFileDialog openDlg(TRUE, NULL, NULL, OFN_HIDEREADONLY | OFN_OVERWRITEPROMPT | OFN_ALLOWMULTISELECT
-		, _T("Í¼Æ¬ÎÄ¼þ(*.bmp;*.png;*.jpg;*.jpeg;*.gif)|*.bmp;*.png;*.jpg;*.jpeg;*.gif||"), this);
+		, _T("Images (*.bmp;*.png;*.jpg;*.jpeg;*.gif)|*.bmp;*.png;*.jpg;*.jpeg;*.gif||"), this);
 	TCHAR szPath[MAX_PATH*100] = {0};
 	openDlg.m_ofn.lStructSize = 88;
 	openDlg.m_ofn.lpstrFile = szPath;
